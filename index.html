@@ -1,160 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
-    <title>Desi Deals | Home</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="shadow py-3">
-      <div class="flex justify-center items-center gap-1">
-        <img src="assets/logo.png" alt="" class="w-12" />
-        <div>
-          <h1 class="text-[#E71580] text-[48px]">
-            Deshi
-            <span class="text-[#E71580] font-bold text-[48px]">Deals</span>
-          </h1>
-          <p class="text-[#797075] text-[20px]">Cheap Price , Best Quality</p>
-        </div>
-      </div>
-    </header>
-
-    <!-- Main -->
-    <main class="mt-3">
-      <!-- Hero Section -->
-      <section class="bg-[#F6DDEA] mt-4">
-        <div class="justify-center text-center items-center">
-          <h1 class="font-bold text-[58px]">
-            Purchase TK 200 or above & get <br />
-            <span class="text-[#E527B2]">20% off</span>
-          </h1>
-
-          <div class="flex gap-3 items-center justify-center">
-            <p class="font-semibold text-[24px]">Use Promo code</p>
-            <button
-              class="bg-[#E527B2] text-white w-[200.22px] h-[69.37px] font-bold rounded-lg"
-            >
-              SELL 200
-            </button>
-          </div>
-          <img src="assets/hero-bg.png" alt="" class="mx-auto" />
-        </div>
-      </section>
-
-      <!-- Products + Cart Section -->
-     <section
-        id="porducts-container"
-        class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8"
-      >
-        <section id="product-box" class="col-span-9">
-          <div class="kitchen">
-            <h1 class="text-2xl font-bold mb-5">Kitchenware</h1>
-
-            <div class="kitchen-items grid grid-cols-3 gap-5">
-              <!-- product card 1  -->
-              <div id="card-1" class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-200 m-5 rounded-xl">
-                  <img
-                    src="./assets/kitchen-1.png"
-                    alt="Shoes"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 id="card-title-1" class="card-title">
-                    রান্না করার স্টিক
-                  </h2>
-                  <p>⭐⭐⭐⭐</p>
-                  <p class="text-gray-500">
-                    <span id="card-price-1">150.40</span> TK
-                  </p>
-                </div>
-                <div class="m-5">
-                  <button
-                    id="cart-btn-1"
-                    class="btn bg-pink-500 text-white btn-block cart-btn"
-                  >
-                    Add to Cart
-                  </button>
-                </div>
-              </div>
-              <!-- product card 2  -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-200 m-5">
-                  <img
-                    src="./assets/kitchen-2.png"
-                    alt="Shoes"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">থালা বাটি</h2>
-                  <p>⭐⭐⭐⭐</p>
-                  <p class="text-gray-500"><span>250.00</span> TK</p>
-                </div>
-                <div class="m-5">
-                  <button class="btn bg-pink-500 text-white btn-block cart-btn">
-                    Add to Cart
-                  </button>
-                </div>
-              </div>
-              <!-- product card 3  -->
-              <div class="card bg-base-100 shadow-sm">
-                <figure class="bg-gray-200 m-5">
-                  <img
-                    src="./assets/kitchen-3.png"
-                    alt="Shoes"
-                    class="rounded-xl py-5"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">স্টিলের হাড়ি</h2>
-                  <p>⭐⭐⭐⭐</p>
-                  <p class="text-gray-500"><span>750.00</span> TK</p>
-                </div>
-                <div class="m-5">
-                  <button class="btn bg-pink-500 text-white btn-block cart-btn">
-                    Add to Cart
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <aside id="cart-box" class="col-span-3">
-          <div class="bg-white p-5 rounded">
-            <h2 class="font-bold mb-5">Have a Cupon</h2>
-            <div class="join">
-              <input class="input join-item" placeholder="Email" />
-              <button class="btn join-item rounded-r-xl bg-pink-500 text-white">
-                Apply
-              </button>
-            </div>
-          </div>
-          <div class="cart-box bg-white mt-10 p-5">
-            <h2 class="font-bold">Cart</h2>
-            <button class="btn" id="btn-clear">Clear</button>
-            <div class="space-y-5" id="cart-container"></div>
-            <div class="">
-              <h2>Total Price: <span id="total-price">0</span> TK</h2>
-              <h2>Total Quantity: <span id="total-quantity">0</span> Items</h2>
-              <button class="btn bg-pink-500 text-white btn-block">
-                Make Purchase
-              </button>
-            </div>
-          </div>
-        </aside>
-      </section>
-    </main>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desi Deals | Home</title>
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <header>
+    <nav class="flex justify-center items-center text-center">
+      <img src="assets/logo.png" alt="" class="h-[78px] w-[78px]">
+   
+    <div>
+      <h1 class="text-[#E71580] font-bold text-[48px]">Deshi <span class="font-normal">Deals</span></h1>
+      <p class="text-[#797075] text-[20px]">Cheap Price ,  Best Quality</p>
+    </div>
+     </nav>
+  </header>
+</body>
 </html>
