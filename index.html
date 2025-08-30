@@ -30,7 +30,7 @@
 
      </section>
   </header>
-  <main>
+  <main class="bg-gray-300">
     <section id="products-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
       <section id="product-box " class=" col-span-9">
        <div class="kitchen">
@@ -91,8 +91,23 @@
         </div>
        </div>
       </section>
-      <aside id="cart-box" class="bg-green-500 col-span-3">
-        <h1>Price</h1>
+      <aside id="cart-box" class=" col-span-3">
+        <div class="bg-white p-5 rounded">
+          <h2 class="font-bold mb-5"> Have a Cupon</h2>
+          <div class="join">
+  <input class="input join-item" placeholder="Email" />
+  <button class="btn join-item rounded-r-xl bg-[#E527B2] text-white">Apply</button>
+</div>
+        </div>
+        <div class="cart-box bg-white mt-10 p-5">
+          <h2 class="font-bold">Cart</h2>
+        </div>
+        <div id="cart-container"></div>
+        <div>
+          <h2>Total price: <span id="total-price">0</span>Tk</h2>
+          <h2>Total Qantity: <span id="">0</span>Items</h2>
+           <button class="btn bg-[#E527B2] text-white btn-block">Make Purchase</button>
+        </div>
       </aside>
     </section>
   </main>
