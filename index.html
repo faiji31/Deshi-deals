@@ -50,252 +50,111 @@
       </section>
 
       <!-- Products + Cart Section -->
-      <section
-        id="produts-container"
-        class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8 bg-gray-100"
+     <section
+        id="porducts-container"
+        class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8"
       >
-        <!-- Products -->
-        <section id="product-box" class=" col-span-9 p-5 rounded-lg">
-          <div class="Kitchen">
-            <h1 class="text-2xl font-bold mb-5">KitchenWare</h1>
-            <div class="Kitchen-cards grid grid-cols-3 gap-8">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
+        <section id="product-box" class="col-span-9">
+          <div class="kitchen">
+            <h1 class="text-2xl font-bold mb-5">Kitchenware</h1>
+
+            <div class="kitchen-items grid grid-cols-3 gap-5">
+              <!-- product card 1  -->
+              <div id="card-1" class="card bg-base-100 shadow-sm">
+                <figure class="bg-gray-200 m-5 rounded-xl">
                   <img
-                    src="assets/kitchen-1.png"
-                    alt="S"
-                   class="rounded-xl py-10"
+                    src="./assets/kitchen-1.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">K. Accessories</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
+                  <h2 id="card-title-1" class="card-title">
+                    রান্না করার স্টিক
+                  </h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500">
+                    <span id="card-price-1">150.40</span> TK
                   </p>
-                  <p><span>150.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
+                </div>
+                <div class="m-5">
+                  <button
+                    id="cart-btn-1"
+                    class="btn bg-pink-500 text-white btn-block cart-btn"
+                  >
+                    Add to Cart
+                  </button>
                 </div>
               </div>
-               
-               
-           
-            <div class="Kitchen-cards grid grid-cols-3 gap-5">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
+              <!-- product card 2  -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="bg-gray-200 m-5">
                   <img
-                    src="assets/kitchen-2.png"
-                    alt="S"
-                   class="rounded-xl py-10"
+                    src="./assets/kitchen-2.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">Thalabati</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>250.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
+                  <h2 class="card-title">থালা বাটি</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>250.00</span> TK</p>
+                </div>
+                <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">
+                    Add to Cart
+                  </button>
                 </div>
               </div>
-               
-               
-            </div>
-            <div class="Kitchen-cards grid grid-cols-3 gap-5">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
+              <!-- product card 3  -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="bg-gray-200 m-5">
                   <img
-                    src="assets/kitchen-3.png"
-                    alt="S"
-                   class="rounded-xl py-10"
+                    src="./assets/kitchen-3.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">Steler Hari</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>750.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
+                  <h2 class="card-title">স্টিলের হাড়ি</h2>
+                  <p>⭐⭐⭐⭐</p>
+                  <p class="text-gray-500"><span>750.00</span> TK</p>
+                </div>
+                <div class="m-5">
+                  <button class="btn bg-pink-500 text-white btn-block cart-btn">
+                    Add to Cart
+                  </button>
                 </div>
               </div>
-               
-                </div>
-            </div>
-          </div>
-           <div class="SportsWear mt-5">
-            <h1 class="text-2xl font-bold mb-5">SportsWear</h1>
-            <div class="Kitchen-cards grid grid-cols-3 gap-8">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
-                  <img
-                    src="assets/sports-1.png"
-                    alt="S"
-                   class="rounded-xl py-10"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Cap</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>150.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
-               
-               
-           
-            <div class="Kitchen-cards grid grid-cols-3 gap-5">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
-                  <img
-                    src="assets/sports-2.png"
-                    alt="S"
-                   class="rounded-xl py-10"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Dress</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>250.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
-               
-               
-            </div>
-            <div class="Kitchen-cards grid grid-cols-3 gap-5">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
-                  <img
-                    src="assets/sports-3.png"
-                    alt="S"
-                   class="rounded-xl py-10"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Juta</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>750.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
-               
-                </div>
-            </div>
-          </div>
-           <div class="furniture mt-5">
-            <h1 class="text-2xl font-bold mb-5">Furniture</h1>
-            <div class="Kitchen-cards grid grid-cols-3 gap-8">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
-                  <img
-                    src="assets/furniture-1.png"
-                    alt="S"
-                   class="rounded-xl py-10"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Single Sofa</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>150.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
-               
-               
-           
-            <div class="Kitchen-cards grid grid-cols-3 gap-5">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
-                  <img
-                    src="assets/furniture-2.png"
-                    alt="S"
-                   class="rounded-xl py-10"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Chair</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>250.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
-               
-               
-            </div>
-            <div class="Kitchen-cards grid grid-cols-3 gap-5">
-              <div class="card bg-base-100 w-96 shadow-sm">
-                <figure class=" m-5 bg-gray-200">
-                  <img
-                    src="assets/furniture-3.png"
-                    alt="S"
-                   class="rounded-xl py-10"
-                  />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Sofa Set</h2>
-                  <p>
-                  ⭐ ⭐ ⭐ ⭐ 
-                  </p>
-                  <p><span>750.00</span>Tk</p>
-                  <div class="card-actions">
-                    <button class="btn bg-pink-700 text-white">Add to Cart</button>
-                  </div>
-                </div>
-              </div>
-               
-                </div>
             </div>
           </div>
         </section>
 
-        <!-- Cart -->
-        <aside id="cart-box" class=" col-span-3 p-5 rounded-lg">
-          <div class="bg-white">
-            <h2 class="font-bold">Have a Cupon</h2>
+        <aside id="cart-box" class="col-span-3">
+          <div class="bg-white p-5 rounded">
+            <h2 class="font-bold mb-5">Have a Cupon</h2>
             <div class="join">
-  <input class="input join-item w-[240px]" placeholder="Cupon" />
-  <button class="btn join-item bg-[#E527B2] text-white font-bold">Apply</button>
-</div>
-
-          </div>
-          <div class="cart-box bg-white mt-10 p-3">
-            <h2 class="font-bold">Cart</h2>
-            <div class="" id="cart-container"></div>
-            <div class="">
-                <h2>Total Price <span id="total-price">0</span>Tk</h2>
-                 <h2>Total Quantity <span id="total-price">0</span>Items</h2>
-                  <button class="btn join-item bg-[#E527B2] text-white font-bold">Make Purchase</button>
+              <input class="input join-item" placeholder="Email" />
+              <button class="btn join-item rounded-r-xl bg-pink-500 text-white">
+                Apply
+              </button>
             </div>
-
+          </div>
+          <div class="cart-box bg-white mt-10 p-5">
+            <h2 class="font-bold">Cart</h2>
+            <button class="btn" id="btn-clear">Clear</button>
+            <div class="space-y-5" id="cart-container"></div>
+            <div class="">
+              <h2>Total Price: <span id="total-price">0</span> TK</h2>
+              <h2>Total Quantity: <span id="total-quantity">0</span> Items</h2>
+              <button class="btn bg-pink-500 text-white btn-block">
+                Make Purchase
+              </button>
+            </div>
           </div>
         </aside>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
